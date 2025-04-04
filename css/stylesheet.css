@@ -282,3 +282,39 @@ p{
     margin-bottom: 0px;
     border-top: 2px solid #444; 
 }
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .txt,
+    .about,
+    h1,
+    #about-me,
+    #about-me2,
+    .contact-para {
+        margin-left: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card1, .card2, .card3, .card4, .card5 {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        margin: 20px auto;
+    }
+
+    .footer {
+        left: 0;
+        width: 100%;
+        position: relative;
+    }
+}
