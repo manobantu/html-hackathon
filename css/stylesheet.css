@@ -5,7 +5,7 @@ body{
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: auto;
 
 }
 
@@ -18,7 +18,7 @@ body{
     color: white;
     padding: 20px;
     width: 200px;
-    height: 100%;
+    height: auto;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,7 +54,7 @@ h1{
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 140px;
+    height: 140vh;
     background-image: url(https://images.pexels.com/photos/28540855/pexels-photo-28540855/free-photo-of-dramatic-black-and-white-cloudscape-above.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,7 +70,7 @@ h1{
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 140px;
+    height: 140vh;
     background-image: url(https://images.pexels.com/photos/28540855/pexels-photo-28540855/free-photo-of-dramatic-black-and-white-cloudscape-above.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,7 +86,7 @@ h1{
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 120px;
+    height: 120vh;
     background-image: url(https://images.pexels.com/photos/31373915/pexels-photo-31373915/free-photo-of-moody-black-and-white-nighttime-storefront-scene.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +104,7 @@ h1{
     font-style: italic;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 120px;
+    height: 120vh;
     background-image: url(https://images.pexels.com/photos/31373915/pexels-photo-31373915/free-photo-of-moody-black-and-white-nighttime-storefront-scene.jpeg?auto=compress&cs=tinysrgb&w=600);
     background-repeat: no-repeat;
     background-size: cover;
