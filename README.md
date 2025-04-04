@@ -44,24 +44,13 @@ Projects will be evaluated based on:
 
 ## 🚀 Deployed Project
 
-🔗 [View Live Project](#)  
-*(Replace this link with your deployed site once ready.)*
+🔗 https://manobantu.github.io/html-hackathon/
 
----
 
-## 🤝 Meet the Team
-
-- **Peer Leader**: [Name]
-- **Group Members**:  
-  - [Member 1]  
-  - [Member 2]  
-  - [Member 3]  
-  - [Member 4]  
-*(List all group members and roles if applicable.)*
 
 ---
 
 ## 📢 Feedback and Rating
 
-After reviewing this project, kindly star-rate and leave your comments based on the evaluation criteria. Your input helps us grow!
+After reviewing this project, kindly star-rate and leave your comments based on the evaluation criteria. Your input helps me grow!
 
