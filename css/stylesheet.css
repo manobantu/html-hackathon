@@ -1,0 +1,284 @@
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+
+.main-container{
+    flex: 1;
+}
+
+.sidebar{
+    background-image: url(https://images.pexels.com/photos/9805549/pexels-photo-9805549.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+    color: white;
+    padding: 20px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.side-btn{
+    text-decoration: none;
+    color: white;
+    display: block;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+
+
+}
+
+.txt{
+    margin-left: 250px;
+}
+
+.side-btn:hover{
+    color: yellowgreen  ;
+
+}
+
+h1{
+    color : orangered;
+    font-size : 50px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 140px;
+    background-image: url(https://images.pexels.com/photos/28540855/pexels-photo-28540855/free-photo-of-dramatic-black-and-white-cloudscape-above.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    padding-top: 30px;
+}
+
+.about{
+    color : orangered;
+    font-size : 50px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 140px;
+    background-image: url(https://images.pexels.com/photos/28540855/pexels-photo-28540855/free-photo-of-dramatic-black-and-white-cloudscape-above.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    padding-top: 30px;
+}
+
+#about-me{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 120px;
+    background-image: url(https://images.pexels.com/photos/31373915/pexels-photo-31373915/free-photo-of-moody-black-and-white-nighttime-storefront-scene.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    padding-top: 30px;
+    
+
+}
+
+#about-me2{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 120px;
+    background-image: url(https://images.pexels.com/photos/31373915/pexels-photo-31373915/free-photo-of-moody-black-and-white-nighttime-storefront-scene.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+h2{
+    color: orangered;
+
+}
+
+p{
+    font-style: italic;
+    color: #00FFFF;
+    font-size: 15px;
+    font-weight: bold   ;
+}
+
+.txt{
+    text-align: center;
+    color: rgb(24, 131, 173);
+
+}
+
+
+.btn{
+    background-color: rgb(109, 248, 116);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background 0.4s ease;
+    display: inline-block;
+    top: 500px;
+    right: 40px;
+}
+
+
+.card1{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/30037285/pexels-photo-30037285/free-photo-of-black-and-white-portrait-of-a-relaxed-cat.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    top: 200px;
+    right: 40px;
+    position: absolute;
+    
+
+}
+
+.card2{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/29851368/pexels-photo-29851368/free-photo-of-elegant-black-and-white-portrait-of-a-woman.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    top: 200px;
+    left: 260px;
+    position: absolute;
+    
+
+}
+
+.card3{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/30037321/pexels-photo-30037321/free-photo-of-silhouette-in-ancient-stone-corridor.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    top: 200px;
+    left: 630px;
+    position: absolute;
+    
+
+}
+
+.card4{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/30037321/pexels-photo-30037321/free-photo-of-silhouette-in-ancient-stone-corridor.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    top: 550px;
+    left: 450px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.card5{
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/30207827/pexels-photo-30207827/free-photo-of-dramatic-black-and-white-floral-arrangement.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    top: 550px;
+    left: 800px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+
+.contact-para{
+    color : orangered;
+    font-size : 50px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 140px;
+    background-image: url(https://images.pexels.com/photos/28540855/pexels-photo-28540855/free-photo-of-dramatic-black-and-white-cloudscape-above.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 250px;
+    padding-top: 30px;
+}
+
+.githublink{
+    color : orangered;
+    font-size : 50px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footertxt{
+    text-align: center;
+}
+
+.footer{
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    left: 240px;
+    width: 82%;
+    margin-bottom: 0px;
+    border-top: 2px solid #444; 
+}
